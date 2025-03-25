@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <style>
+        table,tr,td,th{
+            /*-collapse: collapse;*/
+            width: 50%;
+            margin-left: 200px;
+            margin-top: 70px;
+        }
+        td,th{
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background: rgb(245, 168, 245);
+              cursor: pointer;     
+        }
+        tr:nth-child(odd){
+            background: rgb(157, 225, 245);
+            cursor: pointer;
+        }
+        th{
+            background: hsl(15, 100%, 4%);
+            color: #ffffff;
+            /*padding-left: 5px;*/
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="10" cellpadding="2">
+        <tr><th>NAME</th><th>MATH</th ><th>ENGLISH</th><th>CIVIC</th><th>BIOLOGY</th></tr>
+        <tr><td>DADA MISTURA</td><td>60</td><td>90</td><td>89</td><td>76</td></tr>
+        <tr><td>FOLAMI BALIKIS</td><td>79</td><td>80</td><td>59</td><td>86</td></tr>
+        <tr><td>SALMON FADEKEMI</td><td>70</td><td>89</td><td>90</td><td>66</td></tr>
+        <tr><td>SODIQ HAKEEM</td><td>74</td><td>83</td><td>81</td><td>79</td></tr>
+        <tr><td>IDOWU MAYOMIKUN</td><td>88</td><td>90</td><td>93</td><td>81</td></tr>
+        <tr><td>TAIWO DAIRO</td><td>69</td><td>81</td><td>95</td><td>55</td></tr>
+    </table>
+</body>
+</html>
